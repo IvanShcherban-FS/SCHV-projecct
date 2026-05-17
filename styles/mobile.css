@@ -1,0 +1,200 @@
+@media (max-width: 768px) {
+*{ 
+  box-sizing: border-box; 
+}
+.start-btn{
+  font-size: 13px;
+}
+.logo-text{
+  font-size: 18px;
+}
+.logo-text-deteiled{
+  font-size: 10px;
+}
+.hero-h1{
+  font-size: 25px;
+  width: 80%;
+
+}
+.hero-text{
+  padding: 0 10px;
+  width: 100%;
+  align-items: flex-start;
+}
+.hero-h2{
+  font-size: 15px;
+  width: 80%;
+}
+.hero-box{
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.stat-num{
+  font-size: 20px;
+}
+.stat-label{
+  font-size: 16px;
+}
+.hero-btn-box{
+  margin-top: 15px;
+  gap: 10px;
+}
+.discribe-btn{
+  margin-left: 25px;
+}
+.hero-btn{
+  margin: 0;
+  align-items: flex-start;
+}
+.subline-hero{
+  border: none;
+}
+ body {
+  margin: 0;
+  overflow-x: hidden;
+ }
+  .hero-box {
+    flex-direction: column;
+    padding: 25px;
+  }
+  .header-box{
+    justify-content: space-between;
+    
+  }
+  .head-text{
+    font-size: 13px;
+  }
+  .iosImg{
+    width: 10px;
+  }
+  .icons{
+    display: none;
+  } 
+  .items-l{
+    font-size: 13px;
+  }
+.about-size{
+  font-size: 16px;
+}
+.about-type{
+  margin: 0;
+}
+.hero-board-box{
+  width: 97%;
+  align-items: center;
+  margin: 10px;
+}
+  .poss-conteiner {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+  .head-logo{
+    padding: 0;
+  }
+  .head-nav{
+    display: none;
+  }
+  .partners{
+    font-size: 16px;
+  }
+  .text1{
+    font-size: 17px;
+  }
+  .text2{
+    font-size: 25px;
+  }
+  .text3{
+    font-size: 13px;
+    width: 70%;
+  }
+  .dashboard-foot-disc{
+    font-size: 13px;
+
+  }
+  .partner-list{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    text-align: center;
+  }
+  .footer-main-box{
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 10px;
+    max-width: 90%;
+  }
+  .footer-main-disc{
+    max-width: 90%;
+  }
+  .dovira-text{
+    font-size: 25px;
+    margin-top: 0;
+    text-align: center;
+  }
+  .text1{
+    font-size: 25px;
+    font-weight: 550;
+  }
+  .footer-bottom{
+    width: 100%;
+  }
+  .price{
+
+    padding: 30px 15px;
+  }
+  .price-text-box{
+    align-items: center;
+    justify-content: center;
+  }
+  .price-text{
+    margin: 0;
+  }
+  .tarifs{
+
+  }
+  .price-tarifs-box{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 90%;
+  }
+  .tarif-btn-scr{
+    display: flex;
+    justify-content: center;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  .tarif-btn-ins{
+    margin: 0;
+  }
+  .fidback-body {
+    grid-template-columns: 1fr;
+  }
+  .works-box{
+    display: none;
+  }
+  .faq-btn{
+    font-size: 15px;
+  }
+  .list-name{
+    font-size: 20px;
+  }
+  .list-foot{
+    font-size: 15px;
+  }
+  .footer-text-b{
+    font-size: 13px;
+  }
+  .foot-link{
+    font-size: 11px;
+  }
+  .footer-bottom{
+    padding: 0;
+  }
+  .faq-question{
+    font-size: 13px;
+  }
+  
+}
+
+
