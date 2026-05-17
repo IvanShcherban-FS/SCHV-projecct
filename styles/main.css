@@ -270,11 +270,7 @@ align-items: center;
     background-size: cover;
     min-height: 23vh;
 }
-.left{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
+
 
 .dashboard-about{
     border: 1px solid #2d4571;
@@ -666,6 +662,9 @@ align-items: center;
     font-size: 20px
 }
 .left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
     color: #91b2cf;
     font-size: 16px;
     margin-bottom: 0;
@@ -731,28 +730,11 @@ input{
     font-size: 20px;
     margin-top: 8px;
 }
-.tarif-name{
-    text-transform: uppercase;
-    color: var(--textColor2);
-    font-size: 20px;
-}
-.tarif-cost{
-    font-size: 75px;
-    margin: 0;
-    color: #ffffff;
-    font-weight: 600;
-}
-.tarif-long{
-    color: #4a5f85;
-    font-size: 17px;
-}
-.checkPng{
-    width: 17px;
-    margin-right: 10px;
-}
-.tarif-price{
-    text-align: start;
-}
+.tarif-name{text-transform: uppercase; color: var(--textColor2); font-size: 20px;}
+.tarif-cost{font-size: 75px; margin: 0; color: #ffffff; font-weight: 600;}
+.tarif-long{color: #4a5f85; font-size: 17px;}
+.checkPng{width: 17px; margin-right: 10px;}
+.tarif-price{text-align: start;}
 .price-tarifs-box{
     display: flex;
     justify-content: space-between;
@@ -768,7 +750,7 @@ input{
     width: 100%;
     border: 1px solid #004067;
     border-radius: 15px;
-    min-height: 56vh;
+    min-height: auto;
 }
 .tarif-btn-scr{
     display: none;
@@ -776,8 +758,7 @@ input{
 .tarif-btn-box{
     width: 100%;
     display: flex;
-    margin-top: 45px;
-    align-items: flex-end;
+    margin-top: 28px;
 }
 .tarif-include{
     color: var(--textColor2);
@@ -895,9 +876,9 @@ input{
 
 .faq-answer {
   max-height: 0;
-  overflow: hidden;
   transition: 0.3s ease;
 }
+
 
 .faq-box.active{
     background-color: #00558a;
@@ -1050,7 +1031,7 @@ input{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 10vw;
+    gap: 60px;
 }
 .list-name{
     color: #ffffff;
