@@ -59,17 +59,14 @@
 }
  
  
-/* ════════════════════════════════
-   MOBILE  ≤ 768px
-   ════════════════════════════════ */
 @media (max-width: 768px) {
  
   * { box-sizing: border-box; }
  
-  /* ─ BODY: не блокуємо скрол! ─ */
+
   body {
     margin: 0;
-    overflow-x: hidden; /* тільки горизонтальний overflow */
+    overflow-x: hidden;
   }
  
   /* ─ HEADER ─ */
@@ -83,14 +80,11 @@
   .logo-text         { font-size: 18px; }
   .logo-text-deteiled { font-size: 10px; }
  
-  /* Бургер */
   .burger { display: flex; }
  
-  /* Приховати nav і кнопку за замовчуванням */
   .head-nav,
   .head-start { display: none; width: 100%; }
  
-  /* Відкрите мобільне меню */
   .head-nav.mobile-open {
     display: block;
     background-color: #0a1428;
@@ -194,7 +188,7 @@
   .work-text1 { font-size: 34px; }
   .work-text2 { font-size: 17px; }
  
-  /* Приховати правий блок аналізу (як у твоєму коді) */
+
   .works-box { display: none; }
  
   /* ─ PRICING ─ */
